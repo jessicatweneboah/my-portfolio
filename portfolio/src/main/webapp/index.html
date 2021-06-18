@@ -4,16 +4,42 @@
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <script src="script.js"></script>
+
   </head>
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+    <div class = top-container>
+        <h2 class = big-text>
+            I'm Jessica
+        </h2>
+        <h3 class = small-text>
+            an engineer
+        </h3>
+        <img src="https://www.commvault.com/wp-content/uploads//2020/04/cloud-scale03.svg">
+
+    </div>
+    <div class = "container">
+        <div class="row">
+    <div class="col">
+      <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG--e65hfLdJQ/profile-displayphoto-shrink_400_400/0/1591321087996?e=1628726400&v=beta&t=cZAIhYl98LWs2Cx8XyhH-ouiqHcL8WI6sNU50bK58-I">
+    </div>
+    <div class="col">
+      <p class = mid>
+        My name is Jessica Tweneboah and I am currently a rising sophomore at Cornell University studying Electrical and Computer Engineering.
+        I'd love to connect and chat! Feel free to connect with me on LinkedIn.
+        
+        
+      </p>
+      <p>
+          Click here to see random facts about me!
+      </p>
+      <button onclick="addRandomFact()">Random Fact</button>
+      
+      <div id="fact-container"></div>
+    </div>
+  </div>
     </div>
   </body>
 </html>
